@@ -1,68 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lic. Psicóloga</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lic. Psicóloga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
+
 <body>
-  <header>
-    <h1>Giselle Said</h1>
-    <nav>
-      <a href="#inicio">Início</a>
-      <a href="#sobre">Sobre mim</a>
-      <a href="#contacto">Contato</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Giselle Said</h1>
 
-  <section class="hero" id="inicio">
-    <h2>Um espaço seguro para te escutar</h2>
-    <p>Comece seu processo de análise hoje mesmo</p>
-    <a href="https://wa.me/5511976409736">Agendar pelo WhatsApp</a>
-  </section>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
 
-  <section class="bloques">
-    <div class="bloque">
-      <img src="img/silencio.jpg" alt="O Silêncio que Fala">
-      <h3>O Silêncio que Fala</h3>
-    </div>
-    <div class="bloque">
-      <img src="img/escucha.jpg" alt="O Espaço da Escuta">
-      <h3>O Espaço da Escuta</h3>
-    </div>
-    <div class="bloque">
-      <img src="img/palabra.jpg" alt="A Palavra não Dita">
-      <h3>A Palavra não Dita</h3>
-    </div>
-  </section>
+        <label for="menu-toggle" class="menu-icon">☰</label>
 
-  <section class="sobre" id="sobre">
-    <div class="sobre-conteudo">
-        <img src="img/Giselle_Said.jpeg" alt="Psicanalista">
-        <div class="texto">
-        <h2>Sobre a psicanalista</h2>
-        <p>Giselle Said é psicanalista há mais de 10 anos e pós-graduada em neuropsicologia pelo Instituto Brasileiro de Neuropsicologia e Ciências Cognitivas (IBNeuro), especialista em Neuropsicologia, Terapia Cognitivo-Comportamental e Reabilitação Cognitiva. Atua com psicanálise aplicada a contextos organizacionais e transtornos psicossomáticos, neuropsicanálise e realiza pesquisas e teses constantes, inclusive em parceria com a Universidade de Oxford. Também faz parte do conselho de psicanálise da Federação Brasileira de Psicanálise (FEBRAPSI).</p>
+        <nav class="nav-links">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h2>Um espaço seguro para te escutar</h2>
+        <p>Comece seu processo de análise hoje mesmo</p>
+        <a href="https://wa.me/5511976409736">Agendar pelo WhatsApp</a>
+    </section>
+
+    <section class="bloques">
+        <div class="bloque">
+            <img src="img/silencio.jpg" alt="O Silêncio que Fala">
+            <h3>O Silêncio que Fala</h3>
         </div>
-    </div>
-  </section>
+        <div class="bloque">
+            <img src="img/escucha.jpg" alt="O Espaço da Escuta">
+            <h3>O Espaço da Escuta</h3>
+        </div>
+        <div class="bloque">
+            <img src="img/palabra.jpg" alt="A Palavra não Dita">
+            <h3>A Palavra não Dita</h3>
+        </div>
+    </section>
 
-  <section class="contacto" id="contacto">
-    <h2>Contato</h2>
-    <form>
-      <input type="text" placeholder="Nome" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Mensagem" rows="4" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+    <section class="sobre" id="sobre">
+        <div class="sobre-conteudo">
+            <img src="img/Giselle_Said.jpeg" alt="Psicanalista">
+            <div class="texto">
+                <h2>Sobre a psicanalista</h2>
+                <p>Giselle Said é psicanalista há mais de 10 anos e pós-graduada em neuropsicologia pelo Instituto
+                    Brasileiro de Neuropsicologia e Ciências Cognitivas (IBNeuro), especialista em Neuropsicologia,
+                    Terapia Cognitivo-Comportamental e Reabilitação Cognitiva. Atua com psicanálise aplicada a contextos
+                    organizacionais e transtornos psicossomáticos, neuropsicanálise e realiza pesquisas e teses
+                    constantes, inclusive em parceria com a Universidade de Oxford. Também faz parte do conselho de
+                    psicanálise da Federação Brasileira de Psicanálise (FEBRAPSI).</p>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    &copy; 2025 Giselle Said. Todos os direitos reservados.
-  </footer>
+    <section class="contato" id="contato">
+        <div class="contato-wrapper">
+            <div class="info">
+                <h2>Contato</h2>
+                <p><i class="icon">&#x260E;</i> +55 11 9 7640-9736</p>
+                <p><i class="icon">&#x2709;</i> psicanalisegss@gmail.com</p>
+                <!-- <div class="social">
+                    <a href="#"><i class="icon">👍</i></a>
+                    <a href="#"><i class="icon">🟢</i></a>
+                    <a href="#"><i class="icon">📷</i></a>
+                    <a href="#"><i class="icon">🔗</i></a>
+                </div> -->
+            </div>
+
+            <form class="formulario">
+                <div class="dupla">
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" required>
+                    </div>
+                    <div class="campo">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome">
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" rows="5"></textarea>
+                </div>
+
+                <button id="sub_btn" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Giselle Said. Todos os direitos reservados.
+    </footer>
 </body>
+
 </html>
