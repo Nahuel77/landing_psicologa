@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -64,21 +65,39 @@
         </div>
     </section>
 
+    <section class="artigo-psicanalise">
+        <div class="artigo-conteudo">
+            <h2>O que é Psicanálise e como pode ajudar você?</h2>
+            <p>
+                A psicanálise é uma abordagem terapêutica que busca entender os processos inconscientes que influenciam
+                nossos pensamentos, emoções e comportamentos. Através do diálogo em sessões regulares, o psicanalista
+                ajuda o paciente a descobrir padrões ocultos, conflitos internos e experiências do passado que podem
+                estar afetando o bem-estar no presente.
+            </p>
+            <p>
+                Este método permite compreender as causas profundas da ansiedade, tristeza ou dificuldades em
+                relacionamentos,
+                promovendo um autoconhecimento que possibilita mudanças verdadeiras e duradouras. Não se trata apenas de
+                aliviar sintomas,
+                mas de transformar a relação que você tem consigo mesmo e com os outros.
+            </p>
+            <p>
+                Se você sente que algo limita sua vida, causa sofrimento recorrente ou deseja se conhecer melhor, a
+                psicanálise pode
+                ser a ferramenta para encontrar um caminho de crescimento e equilíbrio pessoal.
+            </p>
+        </div>
+    </section>
+
     <section class="contato" id="contato">
         <div class="contato-wrapper">
             <div class="info">
                 <h2>Contato</h2>
                 <p><i class="icon">&#x260E;</i> +55 11 9 7640-9736</p>
                 <p><i class="icon">&#x2709;</i> psicanalisegss@gmail.com</p>
-                <!-- <div class="social">
-                    <a href="#"><i class="icon">👍</i></a>
-                    <a href="#"><i class="icon">🟢</i></a>
-                    <a href="#"><i class="icon">📷</i></a>
-                    <a href="#"><i class="icon">🔗</i></a>
-                </div> -->
             </div>
 
-            <form class="formulario">
+            <form class="formulario" action="contacto.php" method="POST">
                 <div class="dupla">
                     <div class="campo">
                         <label for="nome">Nome</label>
@@ -97,7 +116,7 @@
 
                 <div class="campo">
                     <label for="mensagem">Mensagem</label>
-                    <textarea id="mensagem" rows="5"></textarea>
+                    <textarea id="mensagem" rows="5" required></textarea>
                 </div>
 
                 <button id="sub_btn" type="submit">Enviar</button>

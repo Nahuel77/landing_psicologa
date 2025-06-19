@@ -56,6 +56,10 @@ header h1 {
   margin: 1rem;
 }
 
+.nav-links a:hover {
+  color: #3FA;
+}
+
 .hero {
   text-align: center;
   min-height: 50vh;
@@ -88,6 +92,10 @@ header h1 {
   text-decoration: none;
 }
 
+.hero a:hover {
+  background-color: #3fa;
+}
+
 .bloques {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -110,6 +118,31 @@ header h1 {
 
 .bloque h3 {
   margin: 1rem;
+}
+
+.artigo-psicanalise {
+  background-color: var(--gris-claro);
+  padding: 3rem 10rem;
+  color: var(--negro);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.artigo-conteudo {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.artigo-psicanalise h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--negro);
+}
+
+.artigo-psicanalise p {
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .sobre {
@@ -241,6 +274,10 @@ header h1 {
   margin-top: 1rem;
 }
 
+#sub_btn:hover {
+  background-color: #3fa;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -293,10 +330,15 @@ footer {
     align-items: flex-start;
     padding: 1rem 2rem;
     display: none;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .menu-toggle:checked + .menu-icon + .nav-links {
+  .artigo-psicanalise {
+    padding: 2rem 2rem;
+    font-size: 1rem;
+  }
+
+  .menu-toggle:checked+.menu-icon+.nav-links {
     display: flex;
   }
 }
