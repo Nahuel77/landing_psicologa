@@ -11,7 +11,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
-    <script src="script.js"></script>
 </head>
 
 <body>
@@ -36,18 +35,28 @@
     </section>
 
     <section class="bloques">
-        <div class="bloque">
-            <img src="img/silencio.jpg" alt="O Silêncio que Fala">
+        <div class="bloque" data-articulo="1">
+            <img src="img/silencio.jpg" alt="El Silencio que Habla">
             <h3>O Silêncio que Fala</h3>
         </div>
-        <div class="bloque">
-            <img src="img/escucha.jpg" alt="O Espaço da Escuta">
+
+
+        <div class="bloque" data-articulo="2">
+            <img src="img/escucha.jpg" alt="El Espacio de la Escucha">
             <h3>O Espaço da Escuta</h3>
         </div>
-        <div class="bloque">
-            <img src="img/palabra.jpg" alt="A Palavra não Dita">
+
+
+        <div class="bloque" data-articulo="3">
+            <img src="img/palabra.jpg" alt="La Palabra no Dicha">
             <h3>A Palavra não Dita</h3>
         </div>
+
+    </section>
+
+    <section class="articulo-general oculto" id="articulo-general">
+        <div class="contenido-articulo"></div>
+        <button id="cerrar-articulo">Cerrar ✕</button>
     </section>
 
     <section class="sobre" id="sobre">
@@ -127,6 +136,7 @@
     <footer>
         &copy; 2025 Giselle Said. Todos os direitos reservados.
     </footer>
+    <script src="script.js" defer></script>
 </body>
 
 </html>

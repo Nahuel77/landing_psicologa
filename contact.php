@@ -5,7 +5,7 @@
     $mensaje .= "Email: " . $_POST['email'] . "\n";
     $mensaje .= "Mensaje: " . $_POST['mensaje'];
 
-    $headers = "From: contacto@tudominio.com";
+    $headers = "From: gisellesaid@psicanalisegs.com";
 
     if (mail($to, $subject, $mensaje, $headers)) {
         echo "success";

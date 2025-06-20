@@ -120,6 +120,28 @@ header h1 {
   margin: 1rem;
 }
 
+.articulo {
+  padding: 1rem 2rem;
+  background-color: #f9f9f9;
+  border-left: 4px solid #a3d9c9;
+  margin-bottom: 1rem;
+  transition: max-height 0.3s ease;
+}
+
+.oculto {
+  display: none;
+}
+
+.bloque {
+  cursor: pointer;
+  padding: 1rem;
+  transition: background 0.2s;
+}
+
+.bloque:hover {
+  background-color: #f0f0f0;
+}
+
 .artigo-psicanalise {
   background-color: var(--gris-claro);
   padding: 3rem 10rem;
@@ -283,6 +305,52 @@ footer {
   padding: 1rem;
   background-color: var(--gris-claro);
   font-size: 0.9rem;
+}
+
+.articulo-general {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.articulo-general h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.articulo-general p {
+    margin-bottom: 1rem;
+}
+
+.contenido-articulo {
+    white-space: pre-line; /* para que respete los saltos de línea del JSON */
+}
+
+#cerrar-articulo {
+    display: flex;
+    justify-self: end;
+    margin: 1.5rem;
+    background-color: #A3D9C9;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#cerrar-articulo:hover {
+    background-color: #3fa;
 }
 
 @media (max-width: 768px) {
